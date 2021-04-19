@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+  float r;
+  int a;
+  int b;
+  int c;
+
+  printf("vedit a=");
+  scanf("%d",&a);
+  printf("vedit b=");
+  scanf("%d",&b);
+  printf("vedit c=");
+  scanf("%d",&c);
+if (a < 0) a= a*(-1);
+if (b < 0) b= b*(-1);
+if (c < 0) c= c*(-1);
+
+
+  r=(float)((a+b-c)/2);
+
+  printf("vidpovid= : %f\n", r);
+  return 0;
+}
